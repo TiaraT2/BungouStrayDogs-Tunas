@@ -1,0 +1,28 @@
+.Fondo-personajes {
+  @include mobilep() {
+    width: 350px;
+  }
+  background-color: $ColorPrincipal;
+  width: 500px;
+  border-radius: 5%;
+  margin: 15px;
+}
+.Padre {
+  .personajes {
+    ul {
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
+      li {
+        @include flex(center);
+      }
+      h3 {
+        color: $ColorTexto;
+        text-decoration: underline;
+      }
+      p {
+        padding: 20px;
+      }
+    }
+  }
+}

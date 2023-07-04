@@ -1,0 +1,20 @@
+.navbar {
+  background-color: #885534;
+  position: sticky;
+  width: 100%;
+  display: flex;
+  .nav-link {
+    color: white;
+  }
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    color: white;
+  }
+}
+
+.dropdown-menu {
+  background-color: #885534;
+  .dropdown-item {
+    color: white;
+  }
+}

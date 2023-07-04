@@ -1,0 +1,21 @@
+//vendors
+@import "./vendors/bootstrap";
+//abstracts
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+//base
+@import "./base/resets";
+@import "./base/typo";
+//components
+@import "./Components/carousel";
+@import "./Components/buttons";
+//layout
+@import "./layout/grid";
+@import "./layout/header";
+@import "./layout/footer";
+//pages
+@import "./pages/Temporada1";
+@import "./pages/Pelicula";
+@import "./pages/arteoficial";
+@import "./pages/index.scss";
+@import "./pages/Personajes.scss";

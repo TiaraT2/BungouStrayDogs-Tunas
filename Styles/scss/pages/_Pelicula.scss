@@ -1,0 +1,8 @@
+.Resumen {
+  @include flex(center);
+  padding: 20px;
+  p {
+    font-size: medium;
+    padding-top: 15px;
+  }
+}

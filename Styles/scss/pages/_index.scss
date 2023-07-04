@@ -1,0 +1,31 @@
+.Padre {
+  @include flex(center);
+  .fondo {
+    width: 500px;
+    background-color: $ColorPrincipal;
+    border-radius: 2%;
+    margin-top: 30px;
+    @include mobilep() {
+      width: 350px;
+    }
+    .interior-texto {
+     @include flex(flex-start);
+      padding: 20px;
+    }
+    h2 {
+      text-decoration: underline;
+      color: $ColorTexto;
+    }
+    .interior {
+    @include flex(center);
+      padding: 20px;
+      p {
+        margin-top: 15px;
+      }
+      h2 {
+        text-decoration: underline;
+        color: $ColorTexto;
+      }
+    }
+  }
+}
