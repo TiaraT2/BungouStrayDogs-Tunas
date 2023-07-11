@@ -2,6 +2,7 @@
   width: 500px;
   margin-top: 30px;
   @include mobilep() {
-    width: 350px;
+    width: 250px;
+    text-size-adjust: auto;
   }
 }

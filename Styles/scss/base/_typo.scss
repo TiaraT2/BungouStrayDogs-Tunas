@@ -3,6 +3,7 @@
 ul {
   list-style: none;
 }
+h1 {@extend h2}
 h2 {
   font-family: "Playfair Display", serif;
   font-size: 38px;
